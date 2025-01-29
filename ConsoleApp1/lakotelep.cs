@@ -60,6 +60,64 @@ class Lakotelep
             }
         }
     }
+
+    static void Panorama() 
+    {
+        int panoramadb = 0;
+        for (int x = 0; x < N; x++)
+        {
+            for (int y = 0; y < M;y++)
+            {
+                if (palya[x,y] > 0)
+                {
+                    bool van = false;
+                    for (int i = 0; i < N;i++)
+                    {
+                        if(palya[i,y] >= palya[x,y])
+                        {
+                            van = true;
+                        }
+                    }
+                    if (!van)
+                    {
+                        panoramadb++;
+                    }
+                    for (int j = x-1; j >= 1;j--)
+                    {
+                        if(palya[j,y] >= palya[x,y])
+                        {
+                            van = true;
+                        }
+                        if(!van)
+                        {
+                            panoramadb++;
+                        }
+                        for ( int k = y +1; k < M;k++)
+                        {
+                            if (palya[x,k] >= palya[x,y])
+                            {
+                                van = true;
+                            }
+                            if(!van)
+                            {
+                                panoramadb++;
+                            }
+                            for (int l = y-1; l >= 1;l--)
+                            {
+                                if(palya[x,l] >= palya[x,y])
+                                    {
+                                        van = true;
+                                    }
+                                    if(!van)
+                                    {
+                                        panoramadb++;
+                                    }
+                        }
+                    }
+                }
+            }
+        }
+    }
         static void Main() 
         {
              Console.SetWindowSize(N, M);
@@ -67,5 +125,6 @@ class Lakotelep
              Hazak();
              Terep();
              Szamolo();
+             Panorama();
         }
 }
