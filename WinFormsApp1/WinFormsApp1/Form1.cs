@@ -6,7 +6,7 @@ namespace WinFormsApp1
         public Form1()
         {
             InitializeComponent();
-            timer1.Interval = 20;
+            timer1.Interval = 16;
 
         }
 
