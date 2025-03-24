@@ -6,7 +6,7 @@ class Rendezesek
 {
 
     static int[] tomb;
-    const int N = 20;
+    const int N = 10000;
 
     static void kiir()
     {
@@ -64,25 +64,61 @@ class Rendezesek
         return par;
     }
 
+    static int logKer(int mit)
+    {
+        int eleje = 0, vege = N-1;
+        int kozepe = (eleje+vege)/2;
+        while ( tomb[kozepe] != mit && eleje < vege)
+        {
+            
+        
+            if( tomb[kozepe] < mit ) 
+            {
+                eleje = kozepe+1;
+            }
+            else if( tomb[kozepe] > mit)
+            {
+                vege = kozepe-1;
+            }
+            kozepe = (eleje+ vege)/2;
+            }
+            if(tomb[kozepe] == mit)
+                return kozepe;
+            else
+                return -1;
+    }
+
+
     static void Main()
     {
 
         tomb = new int[N];
         Random rnd = new ();
         for(int i = 0; i<N; i++)
-            tomb[i] = rnd.Next(10, 100);
-        kiir();
+            tomb[i] = rnd.Next(10000, 100000);
+        //kiir();
 
         int[] ment = (int[]) tomb.Clone();
 
 
         Par bub = buborek();
-        kiir();
+        //kiir();
         System.Console.WriteLine(bub.ossze+"--"+bub.csere);
         
         tomb = (int[]) ment.Clone();
         Par min = minKivRend();
-        kiir();
+        //kiir();
         System.Console.WriteLine(min.ossze+"--"+min.csere);
+
+        int keres = 34567;
+        int holVan = logKer(keres);
+        if( holVan >= 0)
+        {
+            System.Console.WriteLine("Itt van:"+holVan+": "+tomb[holVan]);
+        }
+        else
+        {
+            System.Console.WriteLine("Nincs benne");
+        }
     }
 }
