@@ -1,0 +1,5 @@
+D:\11dzsombor\zsmbr\szargepesorai_03_24\obj\Debug\net8.0\szargepesorai_03_24.GeneratedMSBuildEditorConfig.editorconfig
+D:\11dzsombor\zsmbr\szargepesorai_03_24\obj\Debug\net8.0\szargepesorai_03_24.AssemblyInfoInputs.cache
+D:\11dzsombor\zsmbr\szargepesorai_03_24\obj\Debug\net8.0\szargepesorai_03_24.AssemblyInfo.cs
+D:\11dzsombor\zsmbr\szargepesorai_03_24\obj\Debug\net8.0\szargepesorai_03_24.csproj.CoreCompileInputs.cache
+D:\11dzsombor\zsmbr\szargepesorai_03_24\obj\Debug\net8.0\szargepesorai_03_24.sourcelink.json
