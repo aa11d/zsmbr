@@ -1,0 +1,17 @@
+D:\mappazs\zsmbr\rendezes\rendezes\bin\Debug\net8.0-windows\rendezes.exe
+D:\mappazs\zsmbr\rendezes\rendezes\bin\Debug\net8.0-windows\rendezes.deps.json
+D:\mappazs\zsmbr\rendezes\rendezes\bin\Debug\net8.0-windows\rendezes.runtimeconfig.json
+D:\mappazs\zsmbr\rendezes\rendezes\bin\Debug\net8.0-windows\rendezes.dll
+D:\mappazs\zsmbr\rendezes\rendezes\bin\Debug\net8.0-windows\rendezes.pdb
+D:\mappazs\zsmbr\rendezes\rendezes\obj\Debug\net8.0-windows\rendezes.Form1.resources
+D:\mappazs\zsmbr\rendezes\rendezes\obj\Debug\net8.0-windows\rendezes.csproj.GenerateResource.cache
+D:\mappazs\zsmbr\rendezes\rendezes\obj\Debug\net8.0-windows\rendezes.GeneratedMSBuildEditorConfig.editorconfig
+D:\mappazs\zsmbr\rendezes\rendezes\obj\Debug\net8.0-windows\rendezes.AssemblyInfoInputs.cache
+D:\mappazs\zsmbr\rendezes\rendezes\obj\Debug\net8.0-windows\rendezes.AssemblyInfo.cs
+D:\mappazs\zsmbr\rendezes\rendezes\obj\Debug\net8.0-windows\rendezes.csproj.CoreCompileInputs.cache
+D:\mappazs\zsmbr\rendezes\rendezes\obj\Debug\net8.0-windows\rendezes.sourcelink.json
+D:\mappazs\zsmbr\rendezes\rendezes\obj\Debug\net8.0-windows\rendezes.dll
+D:\mappazs\zsmbr\rendezes\rendezes\obj\Debug\net8.0-windows\refint\rendezes.dll
+D:\mappazs\zsmbr\rendezes\rendezes\obj\Debug\net8.0-windows\rendezes.pdb
+D:\mappazs\zsmbr\rendezes\rendezes\obj\Debug\net8.0-windows\rendezes.genruntimeconfig.cache
+D:\mappazs\zsmbr\rendezes\rendezes\obj\Debug\net8.0-windows\ref\rendezes.dll

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "egy_uj_windows_formsos_cucc/1.0.0": {
+        "runtime": {
+          "egy_uj_windows_formsos_cucc.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "egy_uj_windows_formsos_cucc/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
