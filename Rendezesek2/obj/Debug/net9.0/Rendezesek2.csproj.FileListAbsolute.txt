@@ -1,0 +1,15 @@
+D:\pzsomb\zsmbr\Rendezesek2\obj\Debug\net9.0\Rendezesek2.GeneratedMSBuildEditorConfig.editorconfig
+D:\pzsomb\zsmbr\Rendezesek2\obj\Debug\net9.0\Rendezesek2.AssemblyInfoInputs.cache
+D:\pzsomb\zsmbr\Rendezesek2\obj\Debug\net9.0\Rendezesek2.AssemblyInfo.cs
+D:\pzsomb\zsmbr\Rendezesek2\obj\Debug\net9.0\Rendezesek2.csproj.CoreCompileInputs.cache
+D:\pzsomb\zsmbr\Rendezesek2\obj\Debug\net9.0\Rendezesek2.sourcelink.json
+D:\pzsomb\zsmbr\Rendezesek2\bin\Debug\net9.0\Rendezesek2.exe
+D:\pzsomb\zsmbr\Rendezesek2\bin\Debug\net9.0\Rendezesek2.deps.json
+D:\pzsomb\zsmbr\Rendezesek2\bin\Debug\net9.0\Rendezesek2.runtimeconfig.json
+D:\pzsomb\zsmbr\Rendezesek2\bin\Debug\net9.0\Rendezesek2.dll
+D:\pzsomb\zsmbr\Rendezesek2\bin\Debug\net9.0\Rendezesek2.pdb
+D:\pzsomb\zsmbr\Rendezesek2\obj\Debug\net9.0\Rendezesek2.dll
+D:\pzsomb\zsmbr\Rendezesek2\obj\Debug\net9.0\refint\Rendezesek2.dll
+D:\pzsomb\zsmbr\Rendezesek2\obj\Debug\net9.0\Rendezesek2.pdb
+D:\pzsomb\zsmbr\Rendezesek2\obj\Debug\net9.0\Rendezesek2.genruntimeconfig.cache
+D:\pzsomb\zsmbr\Rendezesek2\obj\Debug\net9.0\ref\Rendezesek2.dll
