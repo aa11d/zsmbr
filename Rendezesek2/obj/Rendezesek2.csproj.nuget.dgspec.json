@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\pzsomb\\zsmbr\\Rendezesek2\\Rendezesek2.csproj": {}
+    "D:\\mappazs\\zsmbr\\Rendezesek2\\Rendezesek2.csproj": {}
   },
   "projects": {
-    "D:\\pzsomb\\zsmbr\\Rendezesek2\\Rendezesek2.csproj": {
+    "D:\\mappazs\\zsmbr\\Rendezesek2\\Rendezesek2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\pzsomb\\zsmbr\\Rendezesek2\\Rendezesek2.csproj",
+        "projectUniqueName": "D:\\mappazs\\zsmbr\\Rendezesek2\\Rendezesek2.csproj",
         "projectName": "Rendezesek2",
-        "projectPath": "D:\\pzsomb\\zsmbr\\Rendezesek2\\Rendezesek2.csproj",
+        "projectPath": "D:\\mappazs\\zsmbr\\Rendezesek2\\Rendezesek2.csproj",
         "packagesPath": "C:\\Users\\pasztor.zsombor\\.nuget\\packages\\",
-        "outputPath": "D:\\pzsomb\\zsmbr\\Rendezesek2\\obj\\",
+        "outputPath": "D:\\mappazs\\zsmbr\\Rendezesek2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -24,54 +24,69 @@ namespace rendezes
                 tomb[i].Text = rnd.Next(100, 1000).ToString();
             }
         }
+        void cseRe(int i, int j)
+        {
+            Button ment = tomb[i];
+            tomb[i] = tomb[j];
+            tomb[j] = ment;
+
+            tomb[i].BringToFront();
+            tomb[j].BringToFront();
+            int iLeft = tomb[i].Left;
+            int jLeft = tomb[j].Left;
+
+            while (Math.Abs(iLeft - tomb[j].Left) > 10)
+            {
+                if (iLeft < jLeft)
+                {
+                    tomb[i].Left += 10;
+                    tomb[j].Left -= 10;
+                }
+                else
+                {
+                    tomb[i].Left -= 10;
+                    tomb[j].Left += 10;
+                }
+                Refresh();
+                Thread.Sleep(100);
+            }
+            tomb[i].Left = jLeft;
+            tomb[j].Left = iLeft;
+        }
 
         private void button14_Click(object sender, EventArgs e)
         {
-            int csere = 0;
-            int ossz = 0;
             for (int meddig = 11; meddig >= 0; meddig--)
             {
                 for (int mutato = 0; mutato < meddig; mutato++)
                 {
-                    ossz++;
                     if (tomb[mutato].Text.CompareTo(tomb[mutato + 1].Text) > 0)
                     {
-                        Button ment = tomb[mutato];
-                        tomb[mutato] = tomb[mutato + 1];
-                        tomb[mutato + 1] = ment;
-                        csere++;
-                        h1 = tomb[mutato + 1].Left;
-                        v1 = tomb[mutato].Left;
-                        m1 = tomb[mutato];
-                        h2 = tomb[mutato].Left;
-                        v2 = tomb[mutato + 1].Left;
-                        m2 = tomb[mutato + 1];
+                        cseRe(mutato, mutato + 1);
                     }
                 }
             }
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
+        private void KozvCsere_Click(object sender, EventArgs e)
         {
-            if (m1 != null)
+            for (int meddig = 11; meddig >= 0; meddig--)
             {
-                m1.Left += (h1 - v1) / 10;
-                if (Math.Abs(m1.Left - v1) < 10)
+                for(int mutato = 0; mutato < meddig; mutato++)
                 {
-                    m1.Left = v1;
-                    m1 = null;
+                    if (tomb[mutato].Text.CompareTo(tomb[mutato + 1].Text) > 0)
+                    {
+
+                    }
                 }
             }
+        }
 
-
-            if (m2 != null)
+        private void MinKiv_Click(object sender, EventArgs e)
+        {
+            for(int meddig = 11;meddig >= 0;meddig--)
             {
-                m2.Left += (h2 - v2) / 10;
-                if (Math.Abs(m2.Left - v2) < 10)
-                {
-                    m2.Left = v2;
-                    m2 = null;
-                }
+                int 
             }
         }
     }

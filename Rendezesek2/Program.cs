@@ -94,9 +94,23 @@ class Rendezesek
         int masik = 1;    
         for (int i = 0; i < 14; i++) {
             Console.WriteLine($"Index: {i}");
-            rnd.Next(1, 100);
+            rnd.Next(1, 100);                           
             
         }
+    }
+
+    static void RendS()
+    {
+    }
+
+    static void RendU()
+    {
+
+    }
+
+    static void RendM()
+    {
+
     }
 
 

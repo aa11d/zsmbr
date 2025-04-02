@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("egy_uj_windows_formsos_cucc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e96b183b47db77e9c5291683878748bde7588b8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+09333f64f6c2a4f203b97a2b6d9f64ccf73d8394")]
 [assembly: System.Reflection.AssemblyProductAttribute("egy_uj_windows_formsos_cucc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("egy_uj_windows_formsos_cucc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
