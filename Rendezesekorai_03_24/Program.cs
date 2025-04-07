@@ -92,33 +92,57 @@ class Rendezesek
     static void Main()
     {
 
-        tomb = new int[N];
-        Random rnd = new ();
-        for(int i = 0; i<N; i++)
-            tomb[i] = rnd.Next(10000, 100000);
-        //kiir();
+        // tomb = new int[N];
+        // Random rnd = new ();
+        // for(int i = 0; i<N; i++)
+        //     tomb[i] = rnd.Next(10000, 100000);
+        // //kiir();
 
-        int[] ment = (int[]) tomb.Clone();
+        // int[] ment = (int[]) tomb.Clone();
 
 
-        Par bub = buborek();
-        //kiir();
-        System.Console.WriteLine(bub.ossze+"--"+bub.csere);
+        // Par bub = buborek();
+        // //kiir();
+        // System.Console.WriteLine(bub.ossze+"--"+bub.csere);
         
-        tomb = (int[]) ment.Clone();
-        Par min = minKivRend();
-        //kiir();
-        System.Console.WriteLine(min.ossze+"--"+min.csere);
+        // tomb = (int[]) ment.Clone();
+        // Par min = minKivRend();
+        // //kiir();
+        // System.Console.WriteLine(min.ossze+"--"+min.csere);
 
-        int keres = 34567;
-        int holVan = logKer(keres);
-        if( holVan >= 0)
+        // int keres = 34567;
+        // int holVan = logKer(keres);
+        // if( holVan >= 0)
+        // {
+        //     System.Console.WriteLine("Itt van:"+holVan+": "+tomb[holVan]);
+        // }
+        // else
+        // {
+        //     System.Console.WriteLine("Nincs benne");
+        // }
+        Console.Write(tomb);
+        Zrend();
+        Console.Write(tomb);
+    }
+
+    int [] tomb = new int [6, 10, 2, 6, 8, 13, 5];
+    static void ZRend() 
+    {
+        int [] mtomb = new int [tomb.lenght];
+        int kisebbek = 0;
+
+        for (int i = 0; i < mtomb.lenght; i++)
         {
-            System.Console.WriteLine("Itt van:"+holVan+": "+tomb[holVan]);
+                if(tomb[i] > tomb[i+1]) 
+                {
+                    kisebbek++;
+                }
+                if(mtomb[i] = mtomb[kisebbek])
+                {
+                    mtomb[i+1] = mtomb[kisebbek];
+                }
+                else {mtomb[kisebbek] = tomb[i]}
         }
-        else
-        {
-            System.Console.WriteLine("Nincs benne");
-        }
+        tomb = mtomb;
     }
 }
