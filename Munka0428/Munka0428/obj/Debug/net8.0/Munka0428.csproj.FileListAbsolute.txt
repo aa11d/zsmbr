@@ -1,0 +1,15 @@
+D:\11dzsombor\zsmbr\Munka0428\Munka0428\obj\Debug\net8.0\Munka0428.GeneratedMSBuildEditorConfig.editorconfig
+D:\11dzsombor\zsmbr\Munka0428\Munka0428\obj\Debug\net8.0\Munka0428.AssemblyInfoInputs.cache
+D:\11dzsombor\zsmbr\Munka0428\Munka0428\obj\Debug\net8.0\Munka0428.AssemblyInfo.cs
+D:\11dzsombor\zsmbr\Munka0428\Munka0428\obj\Debug\net8.0\Munka0428.csproj.CoreCompileInputs.cache
+D:\11dzsombor\zsmbr\Munka0428\Munka0428\obj\Debug\net8.0\Munka0428.sourcelink.json
+D:\11dzsombor\zsmbr\Munka0428\Munka0428\bin\Debug\net8.0\Munka0428.exe
+D:\11dzsombor\zsmbr\Munka0428\Munka0428\bin\Debug\net8.0\Munka0428.deps.json
+D:\11dzsombor\zsmbr\Munka0428\Munka0428\bin\Debug\net8.0\Munka0428.runtimeconfig.json
+D:\11dzsombor\zsmbr\Munka0428\Munka0428\bin\Debug\net8.0\Munka0428.dll
+D:\11dzsombor\zsmbr\Munka0428\Munka0428\bin\Debug\net8.0\Munka0428.pdb
+D:\11dzsombor\zsmbr\Munka0428\Munka0428\obj\Debug\net8.0\Munka0428.dll
+D:\11dzsombor\zsmbr\Munka0428\Munka0428\obj\Debug\net8.0\refint\Munka0428.dll
+D:\11dzsombor\zsmbr\Munka0428\Munka0428\obj\Debug\net8.0\Munka0428.pdb
+D:\11dzsombor\zsmbr\Munka0428\Munka0428\obj\Debug\net8.0\Munka0428.genruntimeconfig.cache
+D:\11dzsombor\zsmbr\Munka0428\Munka0428\obj\Debug\net8.0\ref\Munka0428.dll
