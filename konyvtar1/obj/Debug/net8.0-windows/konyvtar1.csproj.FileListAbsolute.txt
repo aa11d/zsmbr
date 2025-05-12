@@ -1,0 +1,17 @@
+D:\zsmbr\konyvtar1\bin\Debug\net8.0-windows\konyvtar1.exe
+D:\zsmbr\konyvtar1\bin\Debug\net8.0-windows\konyvtar1.deps.json
+D:\zsmbr\konyvtar1\bin\Debug\net8.0-windows\konyvtar1.runtimeconfig.json
+D:\zsmbr\konyvtar1\bin\Debug\net8.0-windows\konyvtar1.dll
+D:\zsmbr\konyvtar1\bin\Debug\net8.0-windows\konyvtar1.pdb
+D:\zsmbr\konyvtar1\obj\Debug\net8.0-windows\konyvtar1.Form1.resources
+D:\zsmbr\konyvtar1\obj\Debug\net8.0-windows\konyvtar1.csproj.GenerateResource.cache
+D:\zsmbr\konyvtar1\obj\Debug\net8.0-windows\konyvtar1.GeneratedMSBuildEditorConfig.editorconfig
+D:\zsmbr\konyvtar1\obj\Debug\net8.0-windows\konyvtar1.AssemblyInfoInputs.cache
+D:\zsmbr\konyvtar1\obj\Debug\net8.0-windows\konyvtar1.AssemblyInfo.cs
+D:\zsmbr\konyvtar1\obj\Debug\net8.0-windows\konyvtar1.csproj.CoreCompileInputs.cache
+D:\zsmbr\konyvtar1\obj\Debug\net8.0-windows\konyvtar1.sourcelink.json
+D:\zsmbr\konyvtar1\obj\Debug\net8.0-windows\konyvtar1.dll
+D:\zsmbr\konyvtar1\obj\Debug\net8.0-windows\refint\konyvtar1.dll
+D:\zsmbr\konyvtar1\obj\Debug\net8.0-windows\konyvtar1.pdb
+D:\zsmbr\konyvtar1\obj\Debug\net8.0-windows\konyvtar1.genruntimeconfig.cache
+D:\zsmbr\konyvtar1\obj\Debug\net8.0-windows\ref\konyvtar1.dll
