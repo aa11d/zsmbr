@@ -1,0 +1,17 @@
+D:\pasztorzs\zsmbr\Konyvtar\bin\Debug\net8.0-windows\Konyvtar.exe
+D:\pasztorzs\zsmbr\Konyvtar\bin\Debug\net8.0-windows\Konyvtar.deps.json
+D:\pasztorzs\zsmbr\Konyvtar\bin\Debug\net8.0-windows\Konyvtar.runtimeconfig.json
+D:\pasztorzs\zsmbr\Konyvtar\bin\Debug\net8.0-windows\Konyvtar.dll
+D:\pasztorzs\zsmbr\Konyvtar\bin\Debug\net8.0-windows\Konyvtar.pdb
+D:\pasztorzs\zsmbr\Konyvtar\obj\Debug\net8.0-windows\Konyvtar.Form1.resources
+D:\pasztorzs\zsmbr\Konyvtar\obj\Debug\net8.0-windows\Konyvtar.csproj.GenerateResource.cache
+D:\pasztorzs\zsmbr\Konyvtar\obj\Debug\net8.0-windows\Konyvtar.GeneratedMSBuildEditorConfig.editorconfig
+D:\pasztorzs\zsmbr\Konyvtar\obj\Debug\net8.0-windows\Konyvtar.AssemblyInfoInputs.cache
+D:\pasztorzs\zsmbr\Konyvtar\obj\Debug\net8.0-windows\Konyvtar.AssemblyInfo.cs
+D:\pasztorzs\zsmbr\Konyvtar\obj\Debug\net8.0-windows\Konyvtar.csproj.CoreCompileInputs.cache
+D:\pasztorzs\zsmbr\Konyvtar\obj\Debug\net8.0-windows\Konyvtar.sourcelink.json
+D:\pasztorzs\zsmbr\Konyvtar\obj\Debug\net8.0-windows\Konyvtar.dll
+D:\pasztorzs\zsmbr\Konyvtar\obj\Debug\net8.0-windows\refint\Konyvtar.dll
+D:\pasztorzs\zsmbr\Konyvtar\obj\Debug\net8.0-windows\Konyvtar.pdb
+D:\pasztorzs\zsmbr\Konyvtar\obj\Debug\net8.0-windows\Konyvtar.genruntimeconfig.cache
+D:\pasztorzs\zsmbr\Konyvtar\obj\Debug\net8.0-windows\ref\Konyvtar.dll

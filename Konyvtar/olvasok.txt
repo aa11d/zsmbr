@@ -1,0 +1,2 @@
+[1000];Izmos Imre;Géz;42
+[1001];Ezerszép Eszter;Bong;24
