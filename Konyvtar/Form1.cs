@@ -148,8 +148,8 @@ namespace Konyvtar
                 string ssoor = sk.ReadLine();
                 while (ssoor != null)
                 {
-                    string kolcson = ssoor.Replace(";", "-");
-                    kzklistBox.Items.Add(kolcson);
+                    // string kolcson = ssoor.Replace(";", "-");
+                    kzklistBox.Items.Add(ssoor);
                     ssoor = sk.ReadLine();
                 }
 
@@ -364,13 +364,14 @@ namespace Konyvtar
                         Olvaso = OOListBox.Items[olvi].ToString();
                         if (Olvaso.Substring(1, 4) == olvasoAzon)
                         {
+                            megvanOlvaso = true;
                             break;
                         }
                     }
 
                     string[] feld = Olvaso.Split(" - ");
                     kzkOlvnev.Text = feld[0] + feld[1];
-                    kzkMettol.Text = kolcsonzes.Substring(9, 10);
+                    kzkMettol.Text = kolcsonzes.Substring(10, 10);
                     kzkMeddig.Text = kolcsonzes.Substring(21, 10);
                 }
                 else
@@ -384,22 +385,57 @@ namespace Konyvtar
 
         private void kzkVisszavetel_Click(object sender, EventArgs e)
         {
-            
+            string konyv = kzkKolcsonzesek.Items[kzkKolcsonzesek.SelectedIndex].ToString();
+            string konyvazon = konyv.Substring(0, 4);
+            string kolcsonzes = "";
+            int hol = 0;
+            for ( int kzki = 0; kzki < kzklistBox.Items.Count; kzki++ )
+            {
+                kolcsonzes = kzklistBox.Items[kzki].ToString();
+                if (kolcsonzes.Substring(0, 4) == konyvazon)
+                {
+                    hol = kzki;
+                    break;
+                }
+            }
+            kzklistBox.Items.Remove(hol);
+            kzkOlvnev.Text = "";
+            kzkMettol.Text = "";
+            kzkMeddig.Text = "";
         }
 
         private void kzkHosszabbit_Click(object sender, EventArgs e)
         {
-            string kolcsonzes = "";
-            for ( int kzki = 0; kzki < kzklistBox.Items.Count; kzki++ )
+            if (kzkKolcsonzesek.SelectedIndex >= 0)
             {
-                kolcsonzes = kzklistBox.Items[kzki].ToString(); 
+                string konyv = kzkKolcsonzesek.Items[kzkKolcsonzesek.SelectedIndex].ToString();
+                string konyvazon = konyv.Substring(1, 4);
+                string kolcsonzes = "";
+                int hol = 0;
+                for (int kzki = 0; kzki < kzklistBox.Items.Count; kzki++)
+                {
+                    kolcsonzes = kzklistBox.Items[kzki].ToString();
+                    if (kolcsonzes.Substring(0, 4) == konyvazon)
+                    {
+                        string[] feld = kolcsonzes.Split(";");
+                        string med = feld[3];
+                        string[] feld2 = med.Split(" - ");
+                        int honap = int.Parse(feld[1]);
+                        int nap = int.Parse(feld[2]);
+                        nap += 10;
+
+                        if (nap > 30)
+                        {
+                            nap -= 30;
+                            honap++;
+                        }
+                        string hh = $"{honap:02}";
+                        string nn = $"{nap:02}";
+                        string ujkolcson = kolcsonzes.Substring(0, kolcsonzes.Length - 5) + hh + " - " + nap;
+                        kzklistBox.Items[kzki] = ujkolcson; 
+                    }
+                }
             }
-
-            string[] feld = kolcsonzes.Split(";");
-            kzkMeddig.Text = feld[3];
-            string[] feldarab = kolcsonzes.Split("-");
-            kzkMeddig.Text = feld[3];
-
         }
     }
 }

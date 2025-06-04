@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{9EA8535E-216B-42A7-B654-D252BE39798E}|Konyvtar.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EA8535E-216B-42A7-B654-D252BE39798E}|Konyvtar.csproj|d:\\pasztorzs\\zsmbr\\konyvtar\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{9EA8535E-216B-42A7-B654-D252BE39798E}|Konyvtar.csproj|D:\\pasztorzs\\zsmbr\\Konyvtar\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9EA8535E-216B-42A7-B654-D252BE39798E}|Konyvtar.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "D:\\pasztorzs\\zsmbr\\Konyvtar\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAH4BAAAAAAAAAADwv5EBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJIBAAAAAAAAAAAgwKABAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-12T08:25:18.591Z",
               "EditorCaption": ""

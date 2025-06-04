@@ -70,6 +70,7 @@
             label5 = new Label();
             kzkKolcsonzesek = new ComboBox();
             kzklistBox = new ListBox();
+            kzkKolcsonadas = new Button();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
             tabPage2.SuspendLayout();
@@ -395,6 +396,7 @@
             // 
             // tabPage3
             // 
+            tabPage3.Controls.Add(kzkKolcsonadas);
             tabPage3.Controls.Add(kzkHosszabbit);
             tabPage3.Controls.Add(kzkVisszavetel);
             tabPage3.Controls.Add(kzkMettol);
@@ -499,6 +501,15 @@
             kzklistBox.Size = new Size(462, 259);
             kzklistBox.TabIndex = 0;
             // 
+            // kzkKolcsonadas
+            // 
+            kzkKolcsonadas.Location = new Point(559, 200);
+            kzkKolcsonadas.Name = "kzkKolcsonadas";
+            kzkKolcsonadas.Size = new Size(135, 53);
+            kzkKolcsonadas.TabIndex = 10;
+            kzkKolcsonadas.Text = "Kiadás";
+            kzkKolcsonadas.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -563,5 +574,6 @@
         private Label label6;
         private Button kzkHosszabbit;
         private Button kzkVisszavetel;
+        private Button kzkKolcsonadas;
     }
 }
